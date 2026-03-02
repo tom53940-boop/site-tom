@@ -1,0 +1,126 @@
+﻿{
+  "brand": {
+    "name": "Finanssia",
+    "tagline": "Conseil en gestion de patrimoine",
+    "baseline": "L'Assurance-vie, la cle de voute de votre patrimoine"
+  },
+  "contact": {
+    "phone": "+33 6 80 11 43 30",
+    "email": "contact@finanssia.com",
+    "city": "Laval",
+    "address": "4 allee de Bertha 95250 Laval",
+    "hours": "Du lundi au vendredi de 9h a 19h"
+  },
+  "socialProof": [
+    "Conseil personnalise",
+    "Approche patrimoniale globale",
+    "Accompagnement a long terme"
+  ],
+  "home": {
+    "heroTitle": "Beaucoup de personnes épargnent sans réelle statégie",
+    "heroText": "Finanssia vous accompagne dans vos decisions patrimoniales avec une demarche claire : bilan, strategie, mise en place et suivi durable.",
+    "primaryCta": "Prendre rendez-vous",
+    "secondaryCta": "Decouvrir nos services",
+    "servicesTitle": "Nos services patrimoniaux",
+    "servicesSubtitle": "Des solutions structurees pour l'epargne, la retraite, l'optimisation fiscale et la transmission.",
+    "processTitle": "Notre demarche en 4 etapes",
+    "guidesTitle": "Guides pratiques",
+    "guidesText": "Retrouvez nos contenus pour mieux comprendre les leviers patrimoniaux avant de prendre une decision.",
+    "exchangeTitle": "Echangeons sur votre projet",
+    "exchangeText": "Un premier entretien permet d'identifier vos priorites et de cadrer une strategie pragmatique."
+  },
+  "services": [
+    {
+      "id": "epargne",
+      "title": "Epargne et assurance-vie",
+      "homeSummary": "Optimisation de vos placements, diversification et securisation progressive selon votre profil.",
+      "detailSummary": "Structuration des enveloppes d'epargne, arbitrage entre securite et performance, selection de supports adaptes."
+    },
+    {
+      "id": "retraite",
+      "title": "Preparation retraite",
+      "homeSummary": "Construction de revenus complementaires et anticipation des changements de rythme de vie.",
+      "detailSummary": "Estimation des besoins, evaluation des ecarts de revenus et mise en place de solutions de capitalisation."
+    },
+    {
+      "id": "fiscalite",
+      "title": "Optimisation fiscale",
+      "homeSummary": "Arbitrages et dispositifs adaptes pour ameliorer votre rendement net dans le cadre legal.",
+      "detailSummary": "Identification des leviers fiscaux mobilisables selon votre situation familiale et patrimoniale."
+    },
+    {
+      "id": "transmission",
+      "title": "Transmission du patrimoine",
+      "homeSummary": "Organisation de votre succession avec des choix clairs pour proteger vos proches.",
+      "detailSummary": "Organisation des modalites de transmission en conciliant efficacite fiscale et equilibre familial."
+    }
+  ],
+  "processSteps": [
+    {
+      "number": "Etape 1",
+      "title": "Analyse",
+      "description": "Evaluation de votre situation patrimoniale, de vos objectifs et de vos contraintes."
+    },
+    {
+      "number": "Etape 2",
+      "title": "Strategie",
+      "description": "Definition d'un plan d'action priorise et coherent avec votre horizon."
+    },
+    {
+      "number": "Etape 3",
+      "title": "Mise en place",
+      "description": "Accompagnement concret dans les solutions retenues."
+    },
+    {
+      "number": "Etape 4",
+      "title": "Suivi",
+      "description": "Revue reguliere et ajustements selon l'evolution de votre vie."
+    }
+  ],
+  "guides": [
+    {
+      "title": "Comment bien preparer sa retraite",
+      "excerpt": "Un plan progressif pour estimer vos besoins et organiser vos complements de revenus.",
+      "slug": "guides/retraite-comment-bien-preparer/index.html"
+    },
+    {
+      "title": "Optimisation fiscale pour particulier",
+      "excerpt": "Les bases pour diminuer votre fiscalite de maniere legale et durable.",
+      "slug": "guides/optimisation-fiscale-particulier/index.html"
+    },
+    {
+      "title": "Equilibrer risque et rendement",
+      "excerpt": "Methode simple pour construire une allocation coherente avec votre profil.",
+      "slug": "guides/investissement-equilibre-risque-rendement/index.html"
+    }
+  ],
+  "pages": {
+    "services": {
+      "title": "Nos services de conseil patrimonial",
+      "subtitle": "Une approche transversale pour optimiser vos decisions d'epargne et de transmission.",
+      "resourcesTitle": "Ressources associees"
+    },
+    "demarche": {
+      "title": "Une demarche claire et pedagogique",
+      "subtitle": "Chaque recommandation s'appuie sur votre situation et vos objectifs de long terme."
+    },
+    "guides": {
+      "title": "Guides pratiques",
+      "subtitle": "Contenus pour mieux comprendre les leviers de gestion de patrimoine."
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "subtitle": "Parlez-nous de votre projet patrimonial, nous vous repondrons rapidement."
+    }
+  },
+  "recruitment": {
+    "intro": "Nous recherchons des profils orientes relation client et conseil patrimonial pour accompagner notre developpement.",
+    "applicationEmail": "contact@finanssia.com"
+  },
+  "seoDefaults": {
+    "titleSuffix": "| Finanssia",
+    "defaultDescription": "Cabinet de conseil en gestion de patrimoine : epargne, retraite, fiscalite et transmission.",
+    "ogImage": "/assets/img/og-finanssia.svg",
+    "locale": "fr_FR"
+  }
+}
