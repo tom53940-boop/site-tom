@@ -6,9 +6,9 @@
   },
   "contact": {
     "phone": "+33 6 07 68 17 55",
-    "email": "contact@finanssia.com",
+    "email": "tom.bertho@finanssia.com",
     "city": "Laval",
-    "address": "4 allee de Bertha 95250 Laval",
+    "address": "7 rue de Perrette, Ahuillé",
     "hours": "Du lundi au vendredi de 9h a 19h"
   },
   "socialProof": [
@@ -18,63 +18,63 @@
   ],
   "home": {
     "heroTitle": "Beaucoup de personnes épargnent sans réelle statégie",
-    "heroText": "Finanssia vous accompagne dans vos decisions patrimoniales avec une demarche claire : bilan, strategie, mise en place et suivi durable.",
+    "heroText": "L’argent reste sur un livret par sécurité, parfois pendant des années.\n \n Non pas par manque d’intérêt, mais parce que les solutions semblent complexes ou difficiles à comprendre.\n \n Mon rôle est de vous aider à structurer votre épargne de manière claire, adaptée à votre situation et compréhensible",
     "primaryCta": "Prendre rendez-vous",
     "secondaryCta": "Decouvrir nos services",
-    "servicesTitle": "Nos services patrimoniaux",
-    "servicesSubtitle": "Des solutions structurees pour l'epargne, la retraite, l'optimisation fiscale et la transmission.",
+    "servicesTitle": "À qui s’adresse cet accompagnement ?",
+    "servicesSubtitle": "Chaque accompagnement commence par un échange approfondi.",
     "processTitle": "Notre demarche en 4 etapes",
     "guidesTitle": "Guides pratiques",
     "guidesText": "Retrouvez nos contenus pour mieux comprendre les leviers patrimoniaux avant de prendre une decision.",
     "exchangeTitle": "Echangeons sur votre projet",
-    "exchangeText": "Un premier entretien permet d'identifier vos priorites et de cadrer une strategie pragmatique."
+    "exchangeText": "Le premier échange permet simplement de faire le point sur votre situation et vos objectifs./nIl ne s’agit pas d’un engagement, mais d’un temps d’échange pour avancer avec davantage de clarté."
   },
   "services": [
     {
       "id": "epargne",
-      "title": "Epargne et assurance-vie",
-      "homeSummary": "Optimisation de vos placements, diversification et securisation progressive selon votre profil.",
-      "detailSummary": "Structuration des enveloppes d'epargne, arbitrage entre securite et performance, selection de supports adaptes."
+      "title": "Faire le point",
+      "homeSummary": "Vous avez mis de l’argent de côté, mais vous vous demandez si votre épargne est réellement organisée de la bonne manière.",
+      "detailSummary": "Le premier rendez-vous est consacré à votre situation. \n Nous parlons de votre épargne actuelle, de vos projets, de votre situation professionnelle et personnelle ainsi que de vos interrogations. \n L’objectif est d’avoir une vision claire de votre point de départ."
     },
     {
       "id": "retraite",
-      "title": "Preparation retraite",
-      "homeSummary": "Construction de revenus complementaires et anticipation des changements de rythme de vie.",
-      "detailSummary": "Estimation des besoins, evaluation des ecarts de revenus et mise en place de solutions de capitalisation."
+      "title": "Construire une stratégie",
+      "homeSummary": "Vous voulez poser les bases d’une stratégie claire, cohérente et adaptée à vos projets.",
+      "detailSummary": "À partir de ce premier échange, je prends le temps d’analyser votre situation afin de construire une stratégie adaptée à vos objectifs et à votre horizon. \n Lors du second rendez-vous, je vous présente cette stratégie de manière simple et structurée."
     },
     {
       "id": "fiscalite",
-      "title": "Optimisation fiscale",
-      "homeSummary": "Arbitrages et dispositifs adaptes pour ameliorer votre rendement net dans le cadre legal.",
-      "detailSummary": "Identification des leviers fiscaux mobilisables selon votre situation familiale et patrimoniale."
+      "title": "Mettre en place et suivre",
+      "homeSummary": "Vous gérez votre argent sérieusement, mais vous avez le sentiment que votre épargne pourrait être mieux utilisée.",
+      "detailSummary": "Si vous choisissez d’avancer, les solutions retenues sont mises en place. Nous faisons ensuite des points réguliers afin d’adapter la stratégie si votre situation évolue.."
     },
     {
       "id": "transmission",
-      "title": "Transmission du patrimoine",
-      "homeSummary": "Organisation de votre succession avec des choix clairs pour proteger vos proches.",
-      "detailSummary": "Organisation des modalites de transmission en conciliant efficacite fiscale et equilibre familial."
+      "title": "Une approche indépendante",
+      "homeSummary": "Vous ne cherchez pas simplement un placement, mais un accompagnement qui vous explique les choses clairement avant toute décision.",
+      "detailSummary": "Je ne suis rattaché à aucune banque. Cela signifie que je ne suis pas limité à une seule gamme de produits. Je travaille avec plusieurs partenaires reconnus afin de pouvoir sélectionner les solutions les plus adaptées à chaque situation. Mon rôle n’est pas de vendre un produit, mais de construire une stratégie cohérente en m’appuyant sur des acteurs solides du marché.(ajouter photo partenaires)"
     }
   ],
   "processSteps": [
     {
       "number": "Etape 1",
-      "title": "Analyse",
-      "description": "Evaluation de votre situation patrimoniale, de vos objectifs et de vos contraintes."
+      "title": "Comprendre votre situation",
+      "description": "Chaque accompagnement commence par un échange approfondi afin de faire le point sur votre situation, votre épargne, vos projets et vos objectifs."
     },
     {
       "number": "Etape 2",
-      "title": "Strategie",
-      "description": "Definition d'un plan d'action priorise et coherent avec votre horizon."
+      "title": "Clarifier vos priorités",
+      "description": "Nous définissons ensemble ce qui est important pour vous et votre niveau de confort face au risque, afin de construire une stratégie cohérente avec votre situation."
     },
     {
       "number": "Etape 3",
-      "title": "Mise en place",
-      "description": "Accompagnement concret dans les solutions retenues."
+      "title": "Construire une stratégie adaptée",
+      "description": "À partir de ces éléments, je sélectionne et vous présente des solutions adaptées, expliquées simplement pour que vous puissiez prendre vos décisions en comprenant réellement ce qui est mis en place."
     },
     {
       "number": "Etape 4",
-      "title": "Suivi",
-      "description": "Revue reguliere et ajustements selon l'evolution de votre vie."
+      "title": "Vous accompagner dans la durée",
+      "description": "La stratégie est suivie et ajustée dans le temps afin de rester alignée avec l’évolution de votre situation et de vos projets."
     }
   ],
   "guides": [
@@ -96,12 +96,12 @@
   ],
   "pages": {
     "services": {
-      "title": "Nos services de conseil patrimonial",
-      "subtitle": "Une approche transversale pour optimiser vos decisions d'epargne et de transmission.",
+      "title": "Mon approche",
+      "subtitle": "Quand une personne me contacte, je ne commence pas par parler de placements, je commence par écouter. \n Chaque situation est différente. Chaque personne a ses projets, ses inquiétudes et son rapport au risque. Il est donc essentiel de comprendre avant de proposer quoi que ce soit.",
       "resourcesTitle": "Ressources associees"
     },
     "demarche": {
-      "title": "Une demarche claire et pedagogique",
+      "title": "A Qui S'adresse Mon Accompagnement ?",
       "subtitle": "Chaque recommandation s'appuie sur votre situation et vos objectifs de long terme."
     },
     "guides": {
