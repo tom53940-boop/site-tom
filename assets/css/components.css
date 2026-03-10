@@ -125,6 +125,10 @@ main li a:not(.cta-button):not(.button-link):focus-visible {
   padding: var(--space-7) 0 var(--space-5);
 }
 
+.page-banner + section {
+  padding-top: var(--space-4);
+}
+
 .page-banner h1 {
   margin-bottom: var(--space-3);
 }
@@ -226,5 +230,9 @@ textarea {
 
   .page-banner {
     padding: var(--space-6) 0 var(--space-4);
+  }
+
+  .page-banner + section {
+    padding-top: var(--space-3);
   }
 }

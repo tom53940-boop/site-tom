@@ -1,12 +1,12 @@
 ﻿# Finanssia static website
 
-## Modifier le contenu rapidement
+## Modifier le contenu
 
-Le fichier principal a modifier est `content/site-content.json`.
+Le contenu est maintenant directement dans les pages HTML.
 
-- Coordonnees et infos marque: `brand`, `contact`
-- Promesse et textes d'accueil: `home`
-- Offres: `services`
+- Accueil: `index.html`
+- Pages principales: `services/`, `demarche/`, `prendre-rendez-vous/`, `recrutement/`, `contact/`, `mentions-legales/`
+- Guides: `guides/`
 
 ## Configurer le formulaire de contact
 
