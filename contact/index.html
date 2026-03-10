@@ -6,47 +6,71 @@
   <title>Contact | Finanssia</title>
   <meta name="description" content="Contactez Finanssia pour un accompagnement en gestion de patrimoine.">
   <link rel="canonical" href="https://www.finanssia.com/contact/">
-  <meta property="og:type" content="website"><meta property="og:locale" content="fr_FR"><meta property="og:title" content="Contact | Finanssia"><meta property="og:description" content="Formulaire de contact et coordonnees Finanssia."><meta property="og:url" content="https://www.finanssia.com/contact/"><meta property="og:image" content="https://www.finanssia.com/assets/img/og-finanssia.svg">
+  <meta property="og:type" content="website"><meta property="og:locale" content="fr_FR"><meta property="og:title" content="Contact | Finanssia"><meta property="og:description" content="Coordonnees et prise de rendez-vous avec Finanssia."><meta property="og:url" content="https://www.finanssia.com/contact/"><meta property="og:image" content="https://www.finanssia.com/assets/img/og-finanssia.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/tokens.css"><link rel="stylesheet" href="../assets/css/base.css"><link rel="stylesheet" href="../assets/css/layout.css"><link rel="stylesheet" href="../assets/css/components.css"><link rel="stylesheet" href="../assets/css/pages.css">
+  <style>
+    .contact-simple {
+      max-width: 48rem;
+      display: grid;
+      gap: var(--space-5);
+    }
+
+    .contact-simple p {
+      line-height: 1.8;
+      margin: 0;
+    }
+
+    .contact-simple .contact-list li {
+      margin-bottom: var(--space-4);
+    }
+
+    .contact-simple .contact-list strong {
+      display: inline-block;
+      min-width: 6.5rem;
+    }
+
+    .contact-actions {
+      display: flex;
+      gap: var(--space-3);
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 768px) {
+      .contact-actions {
+        flex-direction: column;
+      }
+
+      .contact-actions .cta-button,
+      .contact-actions .button-link {
+        width: 100%;
+      }
+    }
+  </style>
 </head>
 <body>
 <header class="site-header"><div class="container header-inner"><a class="brand" href="../index.html"><span class="brand-mark"><img src="../assets/img/finanssia-original.png" alt="" aria-hidden="true"></span><span><span class="brand-title">Finanssia</span><span class="brand-tagline">Conseil en gestion de patrimoine</span></span></a><nav class="main-nav" aria-label="Navigation principale"><ul><li><a href="../index.html">Accueil</a></li><li><a href="../services/index.html">Mon approche</a></li><li><a href="../demarche/index.html">Pour qui ?</a></li><li><a href="../avis-clients/index.html">Avis clients</a></li><li><a href="../faq/index.html">FAQ</a></li><li><a href="../contact/index.html">Contact</a></li></ul></nav><a class="cta-button" href="../prendre-rendez-vous/index.html">Prendre rendez-vous</a></div></header>
 <main>
-  <section class="page-banner"><div class="container"><p><a href="../index.html">Accueil</a> / Contact</p><h1>Contactez-nous</h1><p class="section-subtitle">Parlez-nous de votre projet patrimonial, nous vous repondrons rapidement.</p></div></section>
+  <section class="page-banner"><div class="container"><p><a href="../index.html">Accueil</a> / Contact</p><h1>Contact</h1><p class="section-subtitle">Un premier echange permet de faire le point simplement sur votre situation, vos questions et vos objectifs.</p></div></section>
   <section>
-    <div class="container grid-2">
-      <article class="card">
-        <h2>Coordonnees</h2>
+    <div class="container">
+      <article class="card contact-simple">
+        <h2>Echangeons simplement</h2>
+        <p>Si vous souhaitez faire le point sur votre situation patrimoniale, vous pouvez prendre contact directement par telephone ou par email, ou planifier un rendez-vous.</p>
         <ul class="contact-list">
-          <li><strong>Telephone :</strong> <a href="tel:+33680114330">+33 6 80 11 43 30</a></li>
-          <li><strong>Email :</strong> <a href="mailto:contact@finanssia.com">contact@finanssia.com</a></li>
-          <li><strong>Adresse :</strong> <span>4 allee de Bertha 93250 Villemomble</span></li>
-          <li><strong>Horaires :</strong> <span>Du lundi au vendredi de 9h a 19h</span></li>
+          <li><strong>Telephone</strong> <a href="tel:+33680114330">+33 6 80 11 43 30</a></li>
+          <li><strong>Email</strong> <a href="mailto:contact@finanssia.com">contact@finanssia.com</a></li>
+          <li><strong>Adresse</strong> <span>4 allee de Bertha 93250 Villemomble</span></li>
+          <li><strong>Horaires</strong> <span>Du lundi au vendredi de 9h a 19h</span></li>
         </ul>
-      </article>
-      <article class="card">
-        <h2>Formulaire</h2>
-        <form data-contact-form action="https://api.web3forms.com/submit" method="post">
-          <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
-          <input type="hidden" name="subject" value="Nouveau message depuis finanssia.com">
-          <input type="checkbox" name="botcheck" class="hidden" style="display:none;">
-          <div class="form-group"><label for="nom">Nom *</label><input id="nom" name="nom" required></div>
-          <div class="form-group"><label for="email">Email *</label><input id="email" name="email" type="email" required></div>
-          <div class="form-group"><label for="telephone">Telephone</label><input id="telephone" name="telephone" type="tel"></div>
-          <div class="form-group"><label for="sujet">Sujet</label><input id="sujet" name="sujet"></div>
-          <div class="form-group"><label for="message">Message *</label><textarea id="message" name="message" required></textarea></div>
-          <div class="form-group"><label><input type="checkbox" name="consentement" required> J'accepte que mes donnees soient utilisees pour repondre a ma demande.</label></div>
-          <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;">
-          <button class="cta-button" type="submit">Envoyer</button>
-          <p class="form-note">Les champs marques d'un * sont obligatoires.</p>
-          <p data-form-status class="status-msg" aria-live="polite"></p>
-        </form>
+        <div class="contact-actions">
+          <a class="cta-button" href="../prendre-rendez-vous/index.html">Prendre rendez-vous</a>
+          <a class="button-link" href="tel:+33680114330">Appeler</a>
+        </div>
       </article>
     </div>
   </section>
 </main>
 <footer class="site-footer"><div class="container footer-grid"><section><h2 class="footer-title">Finanssia</h2><p>Conseil en gestion de patrimoine</p><p>4 allee de Bertha 93250 Villemomble</p></section><section><h2 class="footer-title">Pages</h2><ul class="clean-list"><li><a href="../services/index.html">Mon approche</a></li><li><a href="../demarche/index.html">Pour qui ?</a></li><li><a href="../mentions-legales/index.html">Mentions legales</a></li></ul></section><section><h2 class="footer-title">Rendez-vous</h2><p><a href="../prendre-rendez-vous/index.html">Planifier un echange</a></p></section></div></footer>
-<script src="../assets/js/form.js" defer></script>
 </body>
 </html>
