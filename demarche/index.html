@@ -9,13 +9,211 @@
   <meta property="og:type" content="article"><meta property="og:locale" content="fr_FR"><meta property="og:title" content="Pour qui ? | Finanssia"><meta property="og:description" content="Voir si cet accompagnement correspond a votre situation et a votre maniere d'avancer."><meta property="og:url" content="https://www.finanssia.com/demarche/"><meta property="og:image" content="https://www.finanssia.com/assets/img/og-finanssia.svg"><meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/tokens.css"><link rel="stylesheet" href="../assets/css/base.css"><link rel="stylesheet" href="../assets/css/layout.css"><link rel="stylesheet" href="../assets/css/components.css"><link rel="stylesheet" href="../assets/css/pages.css">
+  <style>
+    .alternating-flow {
+      display: grid;
+      gap: var(--space-6);
+    }
+
+    .story-panel {
+      display: grid;
+      grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.25fr);
+      gap: var(--space-6);
+      align-items: start;
+      padding: var(--space-6);
+      border: 1px solid rgba(212, 222, 234, 0.95);
+      border-radius: var(--radius-lg);
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(247, 250, 254, 0.98));
+      box-shadow: var(--shadow-soft);
+      overflow: hidden;
+    }
+
+    .story-panel:nth-child(even) {
+      grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.95fr);
+    }
+
+    .story-panel:nth-child(even) .story-aside {
+      order: 2;
+      text-align: left;
+    }
+
+    .story-panel:nth-child(even) .story-content {
+      order: 1;
+    }
+
+    .story-aside {
+      position: relative;
+      padding: var(--space-5);
+      border-radius: var(--radius-md);
+      background:
+        radial-gradient(circle at top left, rgba(205, 164, 95, 0.22), transparent 38%),
+        linear-gradient(155deg, var(--color-primary), #1d3a62);
+      color: #fff;
+      min-height: 100%;
+    }
+
+    .story-aside::before {
+      content: "";
+      position: absolute;
+      inset: auto auto -2.4rem -2.4rem;
+      width: 8rem;
+      height: 8rem;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .story-kicker {
+      display: block;
+      color: var(--color-gold-soft);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-bottom: var(--space-2);
+    }
+
+    .story-aside h2 {
+      margin: 0;
+      font-size: clamp(1.45rem, 2vw, 1.9rem);
+    }
+
+    .story-aside p {
+      margin: var(--space-4) 0 0;
+      color: rgba(242, 247, 255, 0.88);
+      line-height: 1.7;
+      max-width: 26ch;
+    }
+
+    .story-content {
+      max-width: 64ch;
+      align-self: center;
+    }
+
+    .story-content p {
+      margin: 0 0 var(--space-4);
+      line-height: 1.85;
+    }
+
+    .story-content p:last-child {
+      margin-bottom: 0;
+    }
+
+    .story-points {
+      display: grid;
+      gap: var(--space-3);
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .story-points li {
+      padding: 0 0 0 calc(var(--space-5) + 0.4rem);
+      position: relative;
+      line-height: 1.7;
+    }
+
+    .story-points li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.7rem;
+      width: 0.52rem;
+      height: 0.52rem;
+      border-radius: 50%;
+      background: var(--color-gold-strong);
+      box-shadow: 0 0 0 4px rgba(205, 164, 95, 0.12);
+    }
+
+    .story-cta {
+      margin-top: var(--space-5);
+    }
+
+    @media (max-width: 900px) {
+      .story-panel,
+      .story-panel:nth-child(even) {
+        grid-template-columns: 1fr;
+        gap: var(--space-4);
+      }
+
+      .story-panel:nth-child(even) .story-aside,
+      .story-panel:nth-child(even) .story-content {
+        order: initial;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .story-panel {
+        padding: var(--space-5);
+      }
+
+      .story-aside {
+        padding: var(--space-4);
+      }
+    }
+  </style>
 </head>
 <body>
 <header class="site-header"><div class="container header-inner"><a class="brand" href="../index.html"><span class="brand-mark"><img src="../assets/img/finanssia-original.png" alt="" aria-hidden="true"></span><span><span class="brand-title">Finanssia</span><span class="brand-tagline">Conseil en gestion de patrimoine</span></span></a><nav class="main-nav" aria-label="Navigation principale"><ul><li><a href="../index.html">Accueil</a></li><li><a href="../services/index.html">Mon approche</a></li><li><a href="../demarche/index.html">Pour qui ?</a></li><li><a href="../avis-clients/index.html">Avis clients</a></li><li><a href="../faq/index.html">FAQ</a></li><li><a href="../guides/index.html">Guides</a></li><li><a href="../contact/index.html">Contact</a></li></ul></nav><a class="cta-button" href="../prendre-rendez-vous/index.html">Prendre rendez-vous</a></div></header>
 <main>
   <section class="page-banner"><div class="container"><p><a href="../index.html">Accueil</a> / Pour qui ?</p><h1>Pour qui ?</h1><p class="section-subtitle">Comprendre si cet accompagnement correspond a votre situation.</p></div></section>
-  <section><div class="container grid-2"><article class="card"><h2>Un accompagnement pour structurer</h2><p>Cet accompagnement s'adresse aux personnes qui veulent structurer leur patrimoine, qu'elles disposent deja d'une epargne ou qu'elles partent de zero.</p><p>Il s'adresse aussi aux personnes conscientes de l'importance d'anticiper, et qui souhaitent avancer avec methode plutot que laisser les choses au hasard.</p></article><article class="card"><h2>Vous vous reconnaissez peut-etre si...</h2><p>Vous laissez une partie de votre epargne sur un livret par securite.</p><p>Vous entendez parler d'assurance-vie, d'investissement ou de retraite, mais vous ne savez pas vraiment par ou commencer.</p><p>Vous avez envie d'avancer, mais sans prendre de decisions dans la precipitation.</p><p>Vous souhaitez comprendre avant d'agir.</p></article></div></section>
-  <section class="highlight-band"><div class="container grid-2"><article class="card"><h2>Ce que vous recherchez probablement</h2><p>Les personnes que j'accompagne cherchent generalement a donner du sens a leur epargne, preparer un projet, mettre en place une strategie coherente et etre accompagnees dans le temps.</p><p>L'objectif n'est pas de trouver une solution rapide, mais de disposer d'un cadre clair pour avancer sereinement.</p></article><article class="card"><h2>Pourquoi cette approche fonctionne</h2><ul><li>Une analyse globale de votre situation</li><li>Des recommandations construites a partir de vos objectifs</li><li>Des explications simples pour comprendre les decisions prises</li></ul><p>Si vous avez le sentiment que votre epargne merite d'etre mieux organisee, nous pouvons en echanger.</p><p><a class="cta-button" href="../prendre-rendez-vous/index.html">Prendre rendez-vous</a></p></article></div></section>
+  <section><div class="container alternating-flow">
+    <article class="story-panel">
+      <div class="story-aside">
+        <span class="story-kicker">A qui cela s'adresse</span>
+        <h2>Un accompagnement pour structurer</h2>
+        <p>Une lecture simple pour comprendre si cet accompagnement correspond reellement a votre situation.</p>
+      </div>
+      <div class="story-content">
+        <p>Cet accompagnement s'adresse aux personnes qui veulent structurer leur patrimoine, qu'elles disposent deja d'une epargne ou qu'elles partent de zero.</p>
+        <p>Il s'adresse aussi aux personnes conscientes de l'importance d'anticiper, et qui souhaitent avancer avec methode plutot que laisser les choses au hasard.</p>
+      </div>
+    </article>
+    <article class="story-panel">
+      <div class="story-aside">
+        <span class="story-kicker">Situations frequentes</span>
+        <h2>Vous vous reconnaissez peut-etre si...</h2>
+        <p>Les cas les plus frequents reviennent souvent autour des memes hesitations et du meme besoin de clarte.</p>
+      </div>
+      <div class="story-content">
+        <ul class="story-points">
+          <li>Vous laissez une partie de votre epargne sur un livret par securite.</li>
+          <li>Vous entendez parler d'assurance-vie, d'investissement ou de retraite, mais vous ne savez pas vraiment par ou commencer.</li>
+          <li>Vous avez envie d'avancer, mais sans prendre de decisions dans la precipitation.</li>
+          <li>Vous souhaitez comprendre avant d'agir.</li>
+        </ul>
+      </div>
+    </article>
+  </div></section>
+  <section class="highlight-band"><div class="container alternating-flow">
+    <article class="story-panel">
+      <div class="story-aside">
+        <span class="story-kicker">Ce que vous cherchez</span>
+        <h2>Ce que vous recherchez probablement</h2>
+        <p>Au-dela du produit, la vraie attente est souvent d'avoir un cadre fiable pour prendre de meilleures decisions.</p>
+      </div>
+      <div class="story-content">
+        <p>Les personnes que j'accompagne cherchent generalement a donner du sens a leur epargne, preparer un projet, mettre en place une strategie coherente et etre accompagnees dans le temps.</p>
+        <p>L'objectif n'est pas de trouver une solution rapide, mais de disposer d'un cadre clair pour avancer sereinement.</p>
+      </div>
+    </article>
+    <article class="story-panel">
+      <div class="story-aside">
+        <span class="story-kicker">La methode</span>
+        <h2>Pourquoi cette approche fonctionne</h2>
+        <p>Une approche utile n'est pas la plus technique, c'est celle que vous comprenez et que vous pouvez suivre dans la duree.</p>
+      </div>
+      <div class="story-content">
+        <ul class="story-points">
+          <li>Une analyse globale de votre situation pour partir de ce qui compte vraiment pour vous.</li>
+          <li>Des recommandations construites a partir de vos objectifs, de votre rythme et de votre niveau de confort.</li>
+          <li>Des explications simples pour comprendre les decisions prises et avancer avec plus de clarte.</li>
+        </ul>
+        <p class="story-cta">Si vous avez le sentiment que votre epargne merite d'etre mieux organisee, nous pouvons en echanger.</p>
+        <p><a class="cta-button" href="../prendre-rendez-vous/index.html">Prendre rendez-vous</a></p>
+      </div>
+    </article>
+  </div></section>
 </main>
 <footer class="site-footer"><div class="container footer-grid"><section><h2 class="footer-title">Finanssia</h2><p>Conseil en gestion de patrimoine</p><p>4 allee de Bertha 93250 Villemomble</p></section><section><h2 class="footer-title">Pages</h2><ul class="clean-list"><li><a href="../services/index.html">Mon approche</a></li><li><a href="../guides/index.html">Guides</a></li><li><a href="../contact/index.html">Contact</a></li><li><a href="../mentions-legales/index.html">Mentions legales</a></li></ul></section><section><h2 class="footer-title">Contact</h2><ul class="contact-list"><li><a href="tel:+33680114330">+33 6 80 11 43 30</a></li><li><a href="mailto:contact@finanssia.com">contact@finanssia.com</a></li></ul></section></div></footer>
 </body>
