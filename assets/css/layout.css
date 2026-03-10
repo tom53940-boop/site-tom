@@ -24,18 +24,25 @@
   display: flex;
   align-items: center;
   gap: var(--space-3);
+  flex: 0 0 auto;
+  min-width: 0;
 }
 
 .brand-mark {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  background: linear-gradient(140deg, var(--color-primary), var(--color-gold));
-  display: grid;
-  place-items: center;
-  color: #fff;
-  font-weight: 700;
-  border: 1px solid var(--color-gold-soft);
+  width: 54px;
+  height: 54px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 54px;
+  filter: drop-shadow(0 4px 10px rgba(10, 26, 50, 0.32));
+}
+
+.brand-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 1;
 }
 
 .brand-title {
@@ -49,12 +56,19 @@
   font-size: 0.85rem;
 }
 
+.main-nav {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
 .main-nav ul {
   list-style: none;
   display: flex;
-  gap: var(--space-4);
+  justify-content: center;
+  gap: var(--space-3);
   padding: 0;
   margin: 0;
+  flex-wrap: wrap;
 }
 
 .main-nav a {
@@ -62,6 +76,8 @@
   color: var(--color-text);
   position: relative;
   text-decoration: none;
+  font-size: 0.95rem;
+  white-space: nowrap;
 }
 
 .main-nav a::after {
@@ -99,6 +115,10 @@
   font-weight: 700;
   text-decoration: none;
   transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.header-inner > .cta-button {
+  flex: 0 0 auto;
 }
 
 .cta-button {
@@ -183,6 +203,14 @@ main section {
 @media (max-width: 1366px) {
   .container {
     width: min(100% - 2.25rem, var(--max-width));
+  }
+
+  .main-nav ul {
+    gap: var(--space-2);
+  }
+
+  .main-nav a {
+    font-size: 0.92rem;
   }
 }
 
@@ -269,9 +297,9 @@ main section {
 
 @media (max-width: 375px) {
   .brand-mark {
-    width: 36px;
-    height: 36px;
-    font-size: 0.9rem;
+    width: 44px;
+    height: 44px;
+    flex-basis: 44px;
   }
 
   .brand-title {

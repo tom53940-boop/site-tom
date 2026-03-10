@@ -1,9 +1,0 @@
-﻿{
-  "name": "Finanssia",
-  "short_name": "Finanssia",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#f4f7fb",
-  "theme_color": "#0b4ea2",
-  "lang": "fr"
-}
