@@ -51,7 +51,7 @@ const server = createServer((req, res) => {
 
 async function run() {
   const base = `http://127.0.0.1:${port}`;
-  const pages = ['/', '/services/index.html', '/contact/index.html', '/guides/index.html'];
+  const pages = ['/', '/services/index.html', '/contact/index.html'];
   const viewports = [
     { name: 'desktop', width: 1366, height: 768 },
     { name: 'laptop', width: 1024, height: 768 },
