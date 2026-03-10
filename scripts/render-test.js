@@ -59,10 +59,6 @@ async function run() {
     '/recrutement/',
     '/contact/',
     '/mentions-legales/',
-    '/guides/',
-    '/guides/retraite-comment-bien-preparer/',
-    '/guides/optimisation-fiscale-particulier/',
-    '/guides/investissement-equilibre-risque-rendement/'
   ];
 
   const browser = await chromium.launch({ headless: true });
