@@ -130,8 +130,28 @@
   box-shadow: 0 0 0 4px rgba(205, 164, 95, 0.12);
 }
 
+.story-followup {
+  padding-left: calc(var(--space-5) + 0.4rem);
+}
+
 .story-cta {
   margin-top: var(--space-5);
+  text-align: center;
+}
+
+.partner-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-4);
+  margin-top: var(--space-5);
+}
+
+.partner-logos img {
+  display: block;
+  height: 44px;
+  width: auto;
+  object-fit: contain;
 }
 
 @media (max-width: 900px) {
@@ -154,5 +174,9 @@
 
   .story-aside {
     padding: var(--space-4);
+  }
+
+  .partner-logos img {
+    height: 36px;
   }
 }
