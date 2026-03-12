@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/maju5496/preview.finanssia.com
+    - export DEPLOYPATH=/home/maju5496/public_html/preview
     - /bin/mkdir -p $DEPLOYPATH
     - /usr/bin/rsync -av --delete ./ $DEPLOYPATH
