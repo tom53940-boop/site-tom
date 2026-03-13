@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/maju5496/public_html
+    - export DEPLOYPATH=/home/maju5496/finanssia.com
     - /bin/mkdir -p $DEPLOYPATH
     - /usr/bin/rsync -av --delete --exclude .git/ --exclude .cpanel.yml ./ $DEPLOYPATH/
