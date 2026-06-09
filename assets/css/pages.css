@@ -830,3 +830,86 @@
       grid-template-columns: 1fr;
     }
   }
+
+  /* =========================
+   Pages guides - articles
+   ========================= */
+
+.guide-article {
+  padding: 48px 0 76px;
+  background: linear-gradient(180deg, #f7fbff 0%, #eef5ff 100%);
+}
+
+.guide-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 52px 60px;
+}
+
+.guide-content .guide-meta {
+  margin: 0 0 26px;
+  color: #9b6a18;
+  font-size: 0.86rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.guide-content h2 {
+  margin: 34px 0 14px;
+  color: #071f3d;
+  font-family: "Merriweather", serif;
+  font-size: clamp(1.55rem, 2.2vw, 2.1rem);
+  line-height: 1.25;
+}
+
+.guide-content h2:first-of-type {
+  margin-top: 0;
+}
+
+.guide-content p {
+  margin: 0 0 16px;
+  color: #24415f;
+  line-height: 1.8;
+}
+
+.guide-content ul {
+  margin: 0 0 22px;
+  padding-left: 22px;
+  color: #24415f;
+}
+
+.guide-content li {
+  margin-bottom: 10px;
+  line-height: 1.7;
+}
+
+.guide-cta {
+  margin-top: 44px;
+  padding: 36px 40px;
+  text-align: center;
+  background: #071f3d;
+  color: #ffffff;
+  border-radius: 22px;
+}
+
+.guide-cta h2 {
+  margin: 0 0 14px;
+  color: #ffffff;
+}
+
+.guide-cta p {
+  max-width: 680px;
+  margin: 0 auto 24px;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+@media (max-width: 768px) {
+  .guide-content {
+    padding: 34px 24px;
+  }
+
+  .guide-cta {
+    padding: 30px 24px;
+  }
+}
