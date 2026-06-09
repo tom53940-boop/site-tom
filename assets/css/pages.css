@@ -559,3 +559,198 @@
     text-align: center;
   }
 }
+
+/* =========================
+   Page Pour qui ?
+   ========================= */
+
+   .audience-banner .page-intro {
+    max-width: 760px;
+    margin-top: 16px;
+    color: #24415f;
+    font-size: 1.05rem;
+    line-height: 1.75;
+  }
+  
+  .audience-section {
+    padding: 48px 0 34px;
+    background: linear-gradient(180deg, #eef5ff 0%, #f7fbff 100%);
+  }
+  
+  .audience-intro-card {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: 36px;
+    align-items: center;
+    padding: 42px 48px;
+    margin-bottom: 34px;
+    background: rgba(255, 255, 255, 0.94);
+    border: 1px solid rgba(16, 42, 67, 0.12);
+    border-radius: 24px;
+    box-shadow: 0 18px 45px rgba(16, 42, 67, 0.08);
+  }
+  
+  .audience-intro-card h2 {
+    margin: 0;
+    color: #071f3d;
+    font-family: "Merriweather", serif;
+    font-size: clamp(1.7rem, 2.7vw, 2.5rem);
+    line-height: 1.2;
+  }
+  
+  .audience-intro-card p {
+    margin: 0;
+    color: #24415f;
+    line-height: 1.75;
+  }
+  
+  .audience-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+  }
+  
+  .audience-card {
+    padding: 30px 32px;
+    background: #ffffff;
+    border: 1px solid rgba(16, 42, 67, 0.12);
+    border-radius: 22px;
+    box-shadow: 0 14px 34px rgba(16, 42, 67, 0.06);
+  }
+  
+  .audience-card h3 {
+    margin: 0 0 14px;
+    color: #071f3d;
+    font-family: "Merriweather", serif;
+    font-size: 1.35rem;
+    line-height: 1.25;
+  }
+  
+  .audience-card p {
+    margin: 0;
+    color: #24415f;
+    line-height: 1.7;
+  }
+  
+  .audience-method {
+    padding: 34px 0 34px;
+    background: #f7fbff;
+  }
+  
+  .audience-method-panel {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr);
+    gap: 40px;
+    align-items: start;
+    padding: 42px 48px;
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(247, 250, 254, 0.96));
+    border: 1px solid rgba(16, 42, 67, 0.12);
+    border-radius: 24px;
+    box-shadow: 0 18px 45px rgba(16, 42, 67, 0.08);
+  }
+  
+  .audience-method h2 {
+    margin: 0 0 18px;
+    color: #071f3d;
+    font-family: "Merriweather", serif;
+    font-size: clamp(1.7rem, 2.5vw, 2.35rem);
+    line-height: 1.2;
+  }
+  
+  .audience-method p {
+    margin: 0 0 14px;
+    color: #24415f;
+    line-height: 1.72;
+  }
+  
+  .audience-checklist {
+    display: grid;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .audience-checklist li {
+    position: relative;
+    padding-left: 30px;
+    color: #24415f;
+    line-height: 1.65;
+  }
+  
+  .audience-checklist li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.65em;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #cda45f;
+    box-shadow: 0 0 0 5px rgba(205, 164, 95, 0.14);
+  }
+  
+  .audience-cta {
+    padding: 34px 0 72px;
+    background: linear-gradient(180deg, #f7fbff 0%, #eef5ff 100%);
+  }
+  
+  .audience-cta-panel {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 42px 48px;
+    text-align: center;
+    background: #071f3d;
+    color: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 18px 45px rgba(16, 42, 67, 0.16);
+  }
+  
+  .audience-cta-panel h2 {
+    margin: 0 0 16px;
+    color: #ffffff;
+    font-family: "Merriweather", serif;
+    font-size: clamp(1.7rem, 2.5vw, 2.35rem);
+    line-height: 1.2;
+  }
+  
+  .audience-cta-panel p {
+    max-width: 680px;
+    margin: 0 auto 26px;
+    color: rgba(255, 255, 255, 0.86);
+    line-height: 1.7;
+  }
+  
+  @media (max-width: 900px) {
+    .audience-intro-card,
+    .audience-method-panel {
+      grid-template-columns: 1fr;
+    }
+  
+    .audience-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .audience-section {
+      padding: 34px 0 24px;
+    }
+  
+    .audience-intro-card,
+    .audience-method-panel,
+    .audience-cta-panel {
+      padding: 30px 24px;
+      border-radius: 20px;
+    }
+  
+    .audience-card {
+      padding: 26px 24px;
+      border-radius: 20px;
+    }
+  
+    .audience-cta {
+      padding: 24px 0 56px;
+    }
+  }
