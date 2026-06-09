@@ -754,10 +754,33 @@
       padding: 24px 0 56px;
     }
   }
-  
-  .page-banner .section-subtitle {
-    max-width: 760px;
-    margin-top: 14px;
-    color: #24415f;
-    line-height: 1.7;
-  }
+
+.page-banner {
+  text-align: center;
+}
+
+.page-banner .section-subtitle {
+  max-width: 760px;
+  margin: 14px auto 0;
+  color: #24415f;
+  line-height: 1.7;
+}
+
+.booking-section {
+  padding: 36px 0 72px;
+}
+
+.booking-intro {
+  max-width: 760px;
+  margin: 0 auto 28px;
+  text-align: center;
+}
+
+.booking-intro h2 {
+  margin-bottom: 14px;
+}
+
+.booking-intro p {
+  margin: 0;
+  line-height: 1.7;
+}
