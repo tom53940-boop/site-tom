@@ -187,13 +187,13 @@
   }
   
   .hero-panel h1 {
-    max-width: 780px;
-    margin: 0 0 24px;
+    max-width: 720px;
+    margin: 0 0 22px;
     color: #071f3d;
     font-family: "Merriweather", serif;
-    font-size: clamp(2.3rem, 4.2vw, 4.2rem);
-    line-height: 1.12;
-    letter-spacing: -0.03em;
+    font-size: clamp(2rem, 3.1vw, 3.25rem);
+    line-height: 1.14;
+    letter-spacing: -0.025em;
   }
   
   .hero-panel p {
