@@ -754,3 +754,10 @@
       padding: 24px 0 56px;
     }
   }
+  
+  .page-banner .section-subtitle {
+    max-width: 760px;
+    margin-top: 14px;
+    color: #24415f;
+    line-height: 1.7;
+  }
