@@ -5,7 +5,9 @@
 /* =========================
    Styles communs autres pages
    ========================= */
-
+   body {
+    border: 10px solid red !important;
+  }
    .highlight-band {
     background: var(--color-surface-alt);
   }
