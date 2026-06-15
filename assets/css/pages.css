@@ -1036,3 +1036,32 @@
       padding: 30px 24px;
     }
   }
+
+  .guide-related {
+    margin-top: 38px;
+    padding: 28px 32px;
+    background: #f7fbff;
+    border: 1px solid rgba(7, 31, 61, 0.08);
+    border-radius: 18px;
+  }
+  
+  .guide-related h2 {
+    margin-top: 0;
+    font-size: clamp(1.35rem, 2vw, 1.7rem);
+  }
+  
+  .guide-related ul {
+    margin-bottom: 0;
+  }
+  
+  .guide-related a {
+    font-weight: 600;
+  }
+
+.page-banner .page-intro,
+.page-banner .section-subtitle {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
