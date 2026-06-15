@@ -1065,3 +1065,46 @@
   margin-right: auto;
   text-align: center;
 }
+
+/* =========================
+   Correctifs alignement global
+   ========================= */
+
+   .page-banner {
+    text-align: center;
+  }
+  
+  .page-banner .page-intro,
+  .page-banner .section-subtitle {
+    max-width: 760px;
+    margin: 14px auto 0;
+    text-align: center;
+    color: #24415f;
+    line-height: 1.7;
+  }
+  
+  /* Page Contact */
+  .contact-simple {
+    max-width: 48rem;
+    margin: 0 auto;
+  }
+  
+  /* Page Prendre rendez-vous */
+  .booking-intro {
+    max-width: 760px;
+    margin: 0 auto 28px;
+    text-align: center;
+  }
+  
+  /* Sections cartes guides sur page accueil / pages business */
+  .guides-section .section-heading {
+    max-width: 900px;
+    margin: 0 auto 28px;
+    text-align: left;
+  }
+  
+  @media (max-width: 768px) {
+    .guides-section .section-heading {
+      text-align: left;
+    }
+  }
