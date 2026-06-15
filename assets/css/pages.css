@@ -1108,3 +1108,38 @@
       text-align: left;
     }
   }
+
+
+  /* =========================
+   Boutons secondaires sur fonds sombres
+   ========================= */
+
+.audience-cta-panel .button-link,
+.guide-cta .button-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.08);
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.audience-cta-panel .button-link:hover,
+.audience-cta-panel .button-link:focus,
+.guide-cta .button-link:hover,
+.guide-cta .button-link:focus {
+  background: #ffffff;
+  color: #071f3d;
+  border-color: #ffffff;
+  transform: translateY(-1px);
+}
