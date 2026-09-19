@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="../assets/img/finanssia-original.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../assets/img/optimized/favicon-96.png">
 
   <title>Contact conseiller en gestion de patrimoine à Laval | Finanssia</title>
   <meta name="description" content="Contactez Finanssia, cabinet de gestion de patrimoine près de Laval, pour échanger sur votre épargne, vos investissements, votre retraite ou votre transmission.">
@@ -21,11 +21,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="../assets/css/tokens.css">
-  <link rel="stylesheet" href="../assets/css/base.css">
-  <link rel="stylesheet" href="../assets/css/layout.css">
-  <link rel="stylesheet" href="../assets/css/components.css">
-  <link rel="stylesheet" href="../assets/css/pages.css?v=4">
+  <link rel="stylesheet" href="../assets/css/tokens.css?v=7">
+  <link rel="stylesheet" href="../assets/css/base.css?v=7">
+  <link rel="stylesheet" href="../assets/css/layout.css?v=7">
+  <link rel="stylesheet" href="../assets/css/components.css?v=7">
+  <link rel="stylesheet" href="../assets/css/pages.css?v=7">
 
   <style>
     .contact-simple {
@@ -97,7 +97,22 @@
         "Ahuillé",
         "Mayenne",
         "France"
-      ]
+      ],
+      "@id": "https://www.finanssia.com/#cabinet",
+      "logo": "https://www.finanssia.com/assets/img/finanssia-original.png",
+      "image": "https://www.finanssia.com/assets/img/photo-tom.jpg",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "19:00"
+      }
     }
   }
   </script>
@@ -122,6 +137,7 @@
     ]
   }
   </script>
+  <script src="../assets/js/navigation.js?v=2" defer></script>
 </head>
 
 <body>
@@ -131,7 +147,7 @@
   <div class="container header-inner">
     <a class="brand" href="../">
       <span class="brand-mark">
-        <img src="../assets/img/finanssia-original.png" alt="" aria-hidden="true">
+        <img src="../assets/img/optimized/finanssia-96.webp" alt="" aria-hidden="true" width="96" height="114" decoding="async" srcset="../assets/img/optimized/finanssia-96.webp 96w, ../assets/img/optimized/finanssia-192.webp 192w" sizes="54px">
       </span>
       <span>
         <span class="brand-title">Finanssia</span>
@@ -139,14 +155,15 @@
       </span>
     </a>
 
-    <nav class="main-nav" aria-label="Navigation principale">
+    <button class="nav-toggle" type="button" aria-controls="navigation-principale" aria-expanded="false" hidden>Menu</button>
+    <nav id="navigation-principale" class="main-nav" aria-label="Navigation principale">
       <ul>
         <li><a href="../">Accueil</a></li>
         <li><a href="../services/">Mon approche</a></li>
-        <li><a href="../demarche/">Pour qui ?</a></li>
+        <li><a href="../demarche/">Pour qui ?</a></li>
         <li><a href="../avis-clients/">Avis clients</a></li>
         <li><a href="../faq/">FAQ</a></li>
-        <li><a href="../contact/">Contact</a></li>
+        <li><a href="../contact/" aria-current="page">Contact</a></li>
       </ul>
     </nav>
 
@@ -165,16 +182,14 @@
   <section>
     <div class="container">
       <article class="card contact-simple">
-        <h2>Échangeons simplement</h2>
+        <h2>Parlons de votre projet</h2>
 
         <p>
-          Vous souhaitez faire le point sur votre épargne, préparer un projet, organiser votre patrimoine
-          ou obtenir un premier avis sur votre situation ?
+          Une question sur votre épargne, votre retraite ou un projet à financer ?
         </p>
 
         <p>
-          Vous pouvez me contacter directement par téléphone ou par e-mail, ou planifier un premier rendez-vous.
-          Le premier échange permet simplement de comprendre votre situation et vos objectifs.
+          Contactez-moi par téléphone ou par e-mail, ou choisissez un créneau pour un premier rendez-vous gratuit et sans engagement.
         </p>
 
         <ul class="contact-list">
@@ -222,8 +237,9 @@
     <section>
       <h2 class="footer-title">Pages</h2>
       <ul class="clean-list">
+        <li><a href="../votre-conseiller/">Votre conseiller</a></li>
         <li><a href="../services/">Mon approche</a></li>
-        <li><a href="../demarche/">Pour qui ?</a></li>
+        <li><a href="../demarche/">Pour qui ?</a></li>
         <li><a href="../guides/">Guides</a></li>
         <li><a href="../avis-clients/">Avis clients</a></li>
         <li><a href="../faq/">FAQ</a></li>

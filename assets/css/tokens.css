@@ -24,4 +24,11 @@
   --space-7: 3rem;
   --space-8: 4rem;
   --max-width: 1140px;
+  --header-offset: 7rem;
+}
+
+@media (max-width: 900px) {
+  :root {
+    --header-offset: 10rem;
+  }
 }

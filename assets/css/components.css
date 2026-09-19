@@ -100,8 +100,10 @@
 }
 
 main p a:not(.cta-button):not(.button-link),
-main li a:not(.cta-button):not(.button-link) {
-  text-decoration-color: var(--color-gold);
+main li a:not(.cta-button):not(.button-link),
+main .card > a:not(.cta-button):not(.button-link) {
+  text-decoration-line: underline;
+  text-decoration-color: var(--color-gold-strong);
   text-underline-offset: 0.18em;
 }
 
@@ -268,4 +270,16 @@ textarea {
   .page-banner + section {
     padding-top: var(--space-3);
   }
+}
+
+.faq details[open] summary {
+  margin-bottom: var(--space-4);
+}
+
+.faq details > :last-child {
+  margin-bottom: 0;
+}
+
+a[href^="tel:"] {
+  white-space: nowrap;
 }
