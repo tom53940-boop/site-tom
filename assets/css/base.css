@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: var(--header-offset);
 }
 
 body {
@@ -12,7 +13,6 @@ body {
   color: var(--color-text);
   background: radial-gradient(circle at 80% 0%, #dbe8fa, var(--color-bg) 45%);
   line-height: 1.6;
-  overflow-x: hidden;
 }
 
 h1,
@@ -35,6 +35,7 @@ a:focus-visible {
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -93,5 +94,30 @@ ul {
 @media (max-width: 430px) {
   body {
     font-size: 0.95rem;
+  }
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 4px;
+}
+
+.site-footer :focus-visible {
+  outline-color: var(--color-gold-soft);
+}
+
+:target {
+  scroll-margin-top: var(--space-4);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  a,
+  button,
+  a::after {
+    transition: none;
   }
 }
